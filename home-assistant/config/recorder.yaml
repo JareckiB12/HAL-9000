@@ -1,0 +1,10 @@
+purge_interval: 1
+purge_keep_days: 10
+db_url: sqlite:///home/jarecki/.homeassistant/recorder.db
+#exclude:
+#  domains:
+#    - switch
+#    - sensor
+#include:
+#  domains:
+#    - input_select

@@ -1,0 +1,59 @@
+light.dimmer_i_pir_mys_20_8_0:
+  friendly_name: Blat
+binary_sensor.dimmer_i_pir_mys_20_8_1:
+  friendly_name: Kuchnia
+binary_sensor.door_window_sensor_158d0001d85dbe:
+  device_class: door
+  friendly_name: Wejście
+binary_sensor.door_window_sensor_158d00019fe6e4:
+  device_class: door
+  friendly_name: Mijia kontaktron
+light.gateway_light_34ce008d6d9c:
+  friendly_name: Mijia Gateway
+sensor.humidity_158d0001d36d02:
+  friendly_name: Zachodnia Strona
+sensor.temperature_158d0001d36d02:
+  friendly_name: Zachodnia Strona
+sensor.pressure_158d0001d36d02:
+  friendly_name: Zachodnia Strona
+sensor.illumination_34ce008d6d9c:
+  friendly_name: Mijia Gateway
+binary_sensor.kontaktron_mysv20_2_0:
+  device_class: window
+  friendly_name: Okno Kuchnia 1
+binary_sensor.kontaktron_mysv20_4_0:
+  device_class: window
+  friendly_name: Okno Salon
+binary_sensor.kontaktron_mysv20_5_0:
+  device_class: window
+  friendly_name: Okno Hubert
+binary_sensor.kontaktron_mysv20_6_0:
+  device_class: window
+  friendly_name: Okno Kuchnia 2
+binary_sensor.kontaktron_mysv20_7_0:
+  device_class: window
+  friendly_name: Okno Bąble
+binary_sensor.switch_158d00018b42ce:
+  friendly_name: Radio
+binary_sensor.switch_158d0001b18482:
+  friendly_name: TV
+sensor.temphumbaro_mys_20_9_0:
+  friendly_name: Salon
+sensor.temphum_mys_20_1_0:
+  friendly_name: Kuchnia
+sensor.temphum_mys_20_1_1:
+  friendly_name: Kuchnia
+sensor.temphum_mys_20_10_0:
+  friendly_name: Bąble
+sensor.temphum_mys_20_10_1:
+  friendly_name: Bąble
+sensor.temphum_mys_20_11_0:
+  friendly_name: Wschodnia Strona
+sensor.temphum_mys_20_11_1:
+  friendly_name: Wschodnia Strona
+sensor.temphum_mys_20_12_0:
+  friendly_name: Hubert
+sensor.temphum_mys_20_12_1:
+  friendly_name: Hubert
+sensor.temphumbaro_mys_20_9_2:
+  friendly_name: Salon
