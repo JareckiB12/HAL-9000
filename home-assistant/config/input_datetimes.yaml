@@ -1,0 +1,83 @@
+czas_salon_rano:
+  name: Rano
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_salon_praca:
+  name: Praca
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_salon_dzien:
+  name: Dzień
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_salon_noc:
+  name: Noc
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+
+czas_kuchnia_rano:
+  name: Rano
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_kuchnia_praca:
+  name: Praca
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_kuchnia_dzien:
+  name: Dzień
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_kuchnia_noc:
+  name: Noc
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+
+czas_bable_rano:
+  name: Rano
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_bable_praca:
+  name: Praca
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_bable_dzien:
+  name: Dzień
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_bable_noc:
+  name: Noc
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+
+czas_hubert_rano:
+  name: Rano
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_hubert_praca:
+  name: Praca
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_hubert_dzien:
+  name: Dzień
+  has_date: false
+  has_time: true
+  icon: mdi:clock
+czas_hubert_noc:
+  name: Noc
+  has_date: false
+  has_time: true
+  icon: mdi:clock

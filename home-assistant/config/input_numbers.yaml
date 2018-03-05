@@ -1,0 +1,193 @@
+temp_salon_wirt:
+  name: Termostat Salon - Wirtualny
+  min: 4
+  max: 28
+  step: 1
+  icon: mdi:thermometer
+temp_kuchnia_wirt:
+  name: Termostat Kuchnia - Wirtualny
+  min: 4
+  max: 28
+  step: 1
+  icon: mdi:thermometer
+temp_bable_wirt:
+  name: Termostat Bąble - Wirtualny
+  min: 4
+  max: 28
+  step: 1
+  icon: mdi:thermometer
+temp_hubert_wirt:
+  name: Termostat Hubert - Wirtualny
+  min: 4
+  max: 28
+  step: 1
+  icon: mdi:thermometer
+##### 4 powyższe na potrzeby testów skryptu termostaty, pozniej beda sterowane urzadzenia z-wave ############  
+temp_salon_akt:
+  name: Aktualna
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  #mode: box
+  icon: mdi:thermometer
+
+temp_kuchnia_akt:
+  name: Aktualna
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  #mode: box
+  icon: mdi:thermometer
+
+temp_bable_akt:
+  name: Aktualna
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  #mode: box
+  icon: mdi:thermometer
+
+temp_hubert_akt:
+  name: Aktualna
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  #mode: box
+  icon: mdi:thermometer
+
+temp_salon_rano:
+  name: Rano
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_salon_praca:
+  name: Praca
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_salon_dzien:
+  name: Dzień
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_salon_noc:
+  name: Noc
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 4
+  max: 28
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+
+
+temp_kuchnia_rano:
+  name: Rano
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_kuchnia_praca:
+  name: Praca
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_kuchnia_dzien:
+  name: Dzień
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_kuchnia_noc:
+  name: Noc
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+
+temp_bable_rano:
+  name: Rano
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_bable_praca:
+  name: Praca
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_bable_dzien:
+  name: Dzień
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_bable_noc:
+  name: Noc
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+
+temp_hubert_rano:
+  name: Rano
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_hubert_praca:
+  name: Praca
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_hubert_dzien:
+  name: Dzień
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer
+temp_hubert_noc:
+  name: Noc
+  #initial: 30 gdy jest initial to recorder nie zapisuje
+  min: 0
+  max: 50
+  step: 1
+  mode: box
+  icon: mdi:thermometer

@@ -1,0 +1,16 @@
+example_script:
+  sequence:
+    - service: input_boolean.toggle
+      entity_id: input_boolean.testowy_boolean
+
+# squeeze_play_antyradio:
+#   sequence:
+#   - service: media_player.media_play
+#     entity_id: media_player.squeezelitekuchhnia
+
+
+graj:
+  sequence:
+    - service: media_player.squeezebox_call_method
+      entity_id: media_player.squeezelitekuchhnia
+      #command: play

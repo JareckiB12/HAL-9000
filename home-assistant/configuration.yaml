@@ -11,7 +11,7 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Warsaw
   # Customization file
-  customize: !include config/customize.yaml
+  customize: !include customize.yaml
 
 # Show links to resources in log and frontend
 #introduction:
@@ -57,11 +57,18 @@ sun:
 
 # Weather prediction
 sensor:
-  - platform: yr
+  #- platform: yr
   - platform: wunderground
     api_key: !secret api_wunderground
     lang: PL
     monitored_conditions:
+      - temp_c
+      - feelslike_c
+      - weather
+      - weather_1d_metric
+      - weather_1n_metric
+      - weather_2d_metric
+      - weather_2n_metric
       - weather_3d_metric
       - weather_3n_metric
 
@@ -75,7 +82,23 @@ cloud:
 group: !include config/groups.yaml
 automation: !include config/automations.yaml
 script: !include config/scripts.yaml
+input_select: !include config/input_selects.yaml
+input_number: !include config/input_numbers.yaml
+input_datetime: !include config/input_datetimes.yaml
+input_boolean: !include config/input_booleans.yaml
 recorder: !include config/recorder.yaml
+
+mqtt:
+  broker: localhost
+  port: 1883
+  client_id: home-assistant-1
+  keepalive: 60
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+  protocol: 3.1
+
+influxdb:
+  database: hass
 
 #Xiaomi Aqara aka Mijia Gateway
 xiaomi_aqara:
@@ -96,3 +119,11 @@ mysensors:
   persistence: true
   retain: true
   version: '2.0'
+
+zwave:
+  usb_path: /dev/ttyUSB-zwave
+
+media_player:
+  - platform: squeezebox
+    host: !secret logitech_squeezebox_ip
+    port: !secret logitech_squeezebox_port

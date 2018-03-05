@@ -1,0 +1,115 @@
+light.dimmer_i_pir_mys_20_8_0:
+  friendly_name: Blat
+binary_sensor.dimmer_i_pir_mys_20_8_1:
+  friendly_name: Kuchnia
+binary_sensor.door_window_sensor_158d0001d85dbe:
+  device_class: door
+  friendly_name: Wejście
+binary_sensor.door_window_sensor_158d00019fe6e4:
+  device_class: door
+  friendly_name: Mijia kontaktron
+light.gateway_light_34ce008d6d9c:
+  friendly_name: Mijia Gateway
+sensor.humidity_158d0001d36d02:
+  friendly_name: Zachodnia Strona
+sensor.temperature_158d0001d36d02:
+  friendly_name: Zachodnia Strona
+sensor.pressure_158d0001d36d02:
+  friendly_name: Zachodnia Strona
+sensor.illumination_34ce008d6d9c:
+  friendly_name: Mijia Gateway
+binary_sensor.kontaktron_mysv20_2_0:
+  device_class: window
+  friendly_name: Okno Kuchnia 1
+binary_sensor.kontaktron_mysv20_4_0:
+  device_class: window
+  friendly_name: Okno Salon
+binary_sensor.kontaktron_mysv20_5_0:
+  device_class: window
+  friendly_name: Okno Hubert
+binary_sensor.kontaktron_mysv20_6_0:
+  device_class: window
+  friendly_name: Okno Kuchnia 2
+binary_sensor.kontaktron_mysv20_7_0:
+  device_class: window
+  friendly_name: Okno Bąble
+binary_sensor.switch_158d00018b42ce:
+  friendly_name: Radio
+binary_sensor.switch_158d0001b18482:
+  friendly_name: TV
+sensor.temphumbaro_mys_20_9_0:
+  friendly_name: Salon
+sensor.temphum_mys_20_1_0:
+  friendly_name: Kuchnia
+sensor.temphum_mys_20_1_1:
+  friendly_name: Kuchnia
+sensor.temphum_mys_20_10_0:
+  friendly_name: Bąble
+sensor.temphum_mys_20_10_1:
+  friendly_name: Bąble
+sensor.temphum_mys_20_11_0:
+  friendly_name: Wschodnia Strona
+sensor.temphum_mys_20_11_1:
+  friendly_name: Wschodnia Strona
+sensor.temphum_mys_20_12_0:
+  friendly_name: Hubert
+sensor.temphum_mys_20_12_1:
+  friendly_name: Hubert
+sensor.temphumbaro_mys_20_9_2:
+  friendly_name: Salon
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_comfort_setpoint:
+  friendly_name: Bąble Comfort setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_comfort_setpoint_3:
+  friendly_name: Hubert Comfort setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_comfort_setpoint_2:
+  friendly_name: Kuchnia Comfort setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_energy_saving_setpoint_3:
+  friendly_name: Hubert Energy saving setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_energy_saving_setpoint_2:
+  friendly_name: Kuchnia Energy saving setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_energy_saving_setpoint:
+  friendly_name: Bąble Energy saving setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_frost_protection_setpoint:
+  friendly_name: Bąble Frost protection setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_frost_protection_setpoint_3:
+  friendly_name: Hubert Frost protection setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_frost_protection_setpoint_2:
+  friendly_name: Kuchnia Frost protection setpoint
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_furnace_2:
+  friendly_name: Kuchnia Valve Control Furnace
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_furnace_3:
+  friendly_name: Hubert Valve Control Furnace
+climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_furnace:
+  friendly_name: Bąble Valve Control Furnace
+zwave.__5:
+  friendly_name: ' Hubert - termostat'
+zwave.__4:
+  friendly_name: ' Bąble - termostat'
+zwave.__6:
+  friendly_name: ' Salon - RTV'
+sensor.aeotec_dsc18103_micro_smart_switch_2nd_edition_current:
+  friendly_name: RTV - prąd
+sensor.aeotec_dsc18103_micro_smart_switch_2nd_edition_power:
+  friendly_name: RTV - moc
+sensor.aeotec_dsc18103_micro_smart_switch_2nd_edition_previous_reading_2:
+  friendly_name: RTV -  Previous Reading
+sensor.aeotec_dsc18103_micro_smart_switch_2nd_edition_previous_reading_3:
+  friendly_name: RTV - Previous Reading 2
+sensor.aeotec_dsc18103_micro_smart_switch_2nd_edition_previous_reading:
+  friendly_name: RTV - Previous Reading 3
+sensor.aeotec_dsc18103_micro_smart_switch_2nd_edition_previous_reading_4:
+  friendly_name: RTV - Previous Reading 4
+sensor.aeotec_dsc18103_micro_smart_switch_2nd_edition_voltage:
+  friendly_name: RTV - Voltage
+zwave.aeotec_dsa02203_zstick_s2:
+  friendly_name: Aeotec Z-Stick S2
+zwave.aeotec_dsc18103_micro_smart_switch_2nd_edition:
+  friendly_name: RTV - wyłącznik
+switch.switch:
+  friendly_name: RTV switch
+sensor.unknown:
+  friendly_name: RTV - sensor
+zwave.danfoss_z_thermostat:
+  friendly_name: Termostat - Salon
+climate.danfoss_z_thermostat_heating_1:
+  friendly_name: Salon Termostat Heating 1

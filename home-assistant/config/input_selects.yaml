@@ -1,0 +1,59 @@
+ogrzewanie_dom:
+  name: Ogrzewanie domu
+  options:
+    - Wyłączone
+    - Auto
+    - Weekend
+    - Out
+    - Max
+    - N.O.
+  #initial: Auto #jesli nie ma initila, to bierze ostatni stan dzieki recorder
+  icon: mdi:radiator
+
+ogrzewanie_salon:
+  name: Salon
+  options:
+    - Wyłączone
+    - Auto
+    - Weekend
+    - Manual
+    - Out
+    - Max
+  #initial: Auto
+  icon: mdi:radiator
+
+ogrzewanie_kuchnia:
+  name: Kuchnia
+  options:
+    - Wyłączone
+    - Auto
+    - Weekend
+    - Manual
+    - Out
+    - Max
+  #initial: Auto
+  icon: mdi:radiator
+
+ogrzewanie_bable:
+  name: Bąble
+  options:
+    - Wyłączone
+    - Auto
+    - Weekend
+    - Manual
+    - Out
+    - Max
+  #initial: Auto
+  icon: mdi:radiator
+
+ogrzewanie_hubert:
+  name: Hubert
+  options:
+    - Wyłączone
+    - Auto
+    - Weekend
+    - Manual
+    - Out
+    - Max
+  #initial: Auto
+  icon: mdi:radiator

@@ -1,0 +1,4 @@
+testowy_boolean:
+    name: Testowy boolean
+    initial: off
+    icon: mdi:car

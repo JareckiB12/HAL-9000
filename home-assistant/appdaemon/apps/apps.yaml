@@ -1,0 +1,75 @@
+test:
+  module: test_zwave
+  class: Zwave
+
+# termostaty_salon:
+#   module: termostaty
+#   class: Termostaty
+#   czas_rano: input_datetime.czas_salon_rano
+#   czas_praca: input_datetime.czas_salon_praca
+#   czas_dzien: input_datetime.czas_salon_dzien
+#   czas_noc: input_datetime.czas_salon_noc
+#   temp_rano: input_number.temp_salon_rano
+#   temp_praca: input_number.temp_salon_praca
+#   temp_dzien: input_number.temp_salon_dzien
+#   temp_noc: input_number.temp_salon_noc
+#   okno: binary_sensor.kontaktron_mysv20_4_0 #okno w salonie
+#   tryb: input_select.ogrzewanie_salon
+#   termostat: input_number.temp_salon_wirt
+#   termostat_setpoint: climate.danfoss_z_thermostat_heating_1
+#   temp_min: 6
+#   temp_max: 26
+
+# termostaty_kuchnia:
+#   module: termostaty
+#   class: Termostaty
+#   czas_rano: input_datetime.czas_kuchnia_rano
+#   czas_praca: input_datetime.czas_kuchnia_praca
+#   czas_dzien: input_datetime.czas_kuchnia_dzien
+#   czas_noc: input_datetime.czas_kuchnia_noc
+#   temp_rano: input_number.temp_kuchnia_rano
+#   temp_praca: input_number.temp_kuchnia_praca
+#   temp_dzien: input_number.temp_kuchnia_dzien
+#   temp_noc: input_number.temp_kuchnia_noc
+#   okno: binary_sensor.kontaktron_mysv20_2_0 #okno w kuchni
+#   tryb: input_select.ogrzewanie_kuchnia
+#   termostat: input_number.temp_kuchnia_wirt
+#   termostat_setpoint: climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_comfort_setpoint_2
+#   temp_min: 6
+#   temp_max: 26
+
+# termostaty_bable:
+#   module: termostaty
+#   class: Termostaty
+#   czas_rano: input_datetime.czas_bable_rano
+#   czas_praca: input_datetime.czas_bable_praca
+#   czas_dzien: input_datetime.czas_bable_dzien
+#   czas_noc: input_datetime.czas_bable_noc
+#   temp_rano: input_number.temp_bable_rano
+#   temp_praca: input_number.temp_bable_praca
+#   temp_dzien: input_number.temp_bable_dzien
+#   temp_noc: input_number.temp_bable_noc
+#   okno: binary_sensor.kontaktron_mysv20_7_0 #okno w bableie
+#   tryb: input_select.ogrzewanie_bable
+#   termostat: input_number.temp_bable_wirt
+#   temp_termostat: climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_comfort_setpoint
+#   temp_min: 6
+#   temp_max: 26
+
+# termostaty_hubert:
+#   module: termostaty
+#   class: Termostaty
+#   czas_rano: input_datetime.czas_hubert_rano
+#   czas_praca: input_datetime.czas_hubert_praca
+#   czas_dzien: input_datetime.czas_hubert_dzien
+#   czas_noc: input_datetime.czas_hubert_noc
+#   temp_rano: input_number.temp_hubert_rano
+#   temp_praca: input_number.temp_hubert_praca
+#   temp_dzien: input_number.temp_hubert_dzien
+#   temp_noc: input_number.temp_hubert_noc
+#   okno: binary_sensor.kontaktron_mysv20_5_0 #okno w hubertie
+#   tryb: input_select.ogrzewanie_hubert
+#   termostat: input_number.temp_hubert_wirt
+#   temp_termostat: climate.eurotronic_eur_stellaz_wall_radiator_thermostat_valve_control_comfort_setpoint_3
+#   temp_min: 6
+#   temp_max: 26

@@ -1,0 +1,16 @@
+secrets: /home/jarecki/.homeassistant/secrets.yaml
+log:
+  accessfile: /home/jarecki/.homeassistant/appdaemon_access.log
+  errorfile: /home/jarecki/.homeassistant/appdaemon_error.log
+  logfile: /home/jarecki/.homeassistant/appdaemon.log
+  log_generations: 3
+  log_size: 1000000
+appdaemon:
+  threads: 10
+  plugins:
+    HASS:
+      type: hass
+      ha_url: !secret ha_appdaemon_url
+      #ha_key: <some_key>
+hadashboard:
+  dash_url: !secret dashboard_url
